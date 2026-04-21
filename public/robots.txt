@@ -1,0 +1,12 @@
+# robots.txt para Portfolio de Álvaro Alonso Fernández
+# Permitir acceso a todos los motores de búsqueda
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://alvaroalof.github.io/portfolio-v2/sitemap.xml
+
+# Desallow rutas de API si existen
+Disallow: /api/
+Disallow: /server/
